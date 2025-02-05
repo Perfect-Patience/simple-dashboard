@@ -9,35 +9,51 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="side-menu">
-      <div class="brand-name">
-        <h1>Brand</h1>
-      </div>
       <ul>
-        <li><i class="bi bi-speedometer"></i> Dashboard</li>
-        <li><i class="bi bi-person-circle"></i>Students</li>
-        <li><i class="bi bi-layers-fill"></i>Teachers</li>
-        <li><i class="bi bi-buildings"></i>Schools</li>
-        <li><i class="bi bi-cash-stack"></i>Income</li>
-        <li><i class="bi bi-patch-question"></i>Help</li>
-        <li><i class="bi bi-gear"></i>Settings</li>
+        <a href="index.html"
+          ><li><i class="bi bi-speedometer"></i> Dashboard</li></a
+        >
+        <a href="students.html"
+          ><li><i class="bi bi-person-circle"></i>Students</li></a
+        >
+        <a href="Teachers.html"
+          ><li><i class="bi bi-layers-fill"></i>Teachers</li></a
+        >
+        <a href="schools.html"
+          ><li><i class="bi bi-buildings"></i>Schools</li></a
+        >
+        <a href="income.html">
+          <li><i class="bi bi-cash-stack"></i>Income</li></a
+        >
+        <a href="help.html"
+          ><li><i class="bi bi-patch-question"></i>Help</li></a
+        >
+        <a href="settings.html">
+          <li><i class="bi bi-gear"></i>Settings</li></a
+        >
       </ul>
     </div>
 
     <div class="container">
       <div class="header">
         <div class="nav">
+          <div class="brand-name">
+            <h1>Brand</h1>
+          </div>
           <div class="search">
             <input type="text" placeholder="Search..." />
             <button type="submit"><i class="bi bi-search"></i></button>
           </div>
           <div class="user">
-            
             <a href="#" class="btn"><div>Add new</div></a>
             <i class="bi bi-bell-fill"></i>
             <i class="bi bi-person-circle"></i>
@@ -63,7 +79,7 @@
               <h3>Teachers</h3>
             </div>
             <div class="icon-box">
-            <i class="bi bi-person-video3"></i>
+              <i class="bi bi-person-video3"></i>
             </div>
           </div>
           <div class="card">
@@ -72,7 +88,7 @@
               <h3>Schools</h3>
             </div>
             <div class="icon-box">
-                <i class="bi bi-buildings"></i>
+              <i class="bi bi-buildings"></i>
             </div>
           </div>
           <div class="card">
@@ -81,101 +97,133 @@
               <h3>Income</h3>
             </div>
             <div class="icon-box">
-                <i class="bi bi-cash-stack"></i>
+              <i class="bi bi-cash-stack"></i>
             </div>
           </div>
         </div>
         <div class="content-2">
-            <div class="recent-payments">
-                <div class="title">
-                    <h2>Recent Payments</h2>
-                    <a href="#" class="view-all">View all</a>
-                </div>
-                <table>
-                    <tr>
-                        <th>Date</th>
-                        <th>Name</th>
-                        <th>School</th>
-                        <th>Amount</th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <td>12/01/2022</td>
-                        <td>John Doe</td>
-                        <td>ABC School</td>
-                        <td>$120</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-                    <tr>
-                        <td>11/01/2022</td>
-                        <td>Jane Smith</td>
-                        <td>WRD School</td>
-                        <td>$80</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-                    <tr>
-                        <td>10/01/2022</td>
-                        <td>Mike Johnson</td>
-                        <td>XYZ School</td>
-                        <td>$100</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-
-                    <tr>
-                        <td>09/01/2022</td>
-                        <td>Sarah Davis</td>
-                        <td>PQR School</td>
-                        <td>$150</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-                    <tr>
-                        <td>08/01/2022</td>
-                        <td>David Wilson</td>
-                        <td>STU School</td>
-                        <td>$130</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-                    <tr>
-                        <td>07/01/2022</td>
-                        <td>Emily Thompson</td>
-                        <td>VWX School</td>
-                        <td>$110</td>
-                        <td><a href="#"><i class="bi bi-info-circle"></i></a></td>                    </tr>
-                    </tr>
-                </table>
+          <div class="recent-payments">
+            <div class="title">
+              <h2>Recent Payments</h2>
+              <a href="#" class="view-all">View all</a>
             </div>
-            <div class="new-students">
-                <div class="title">
-                    <h2>New students</h2>
-                    <a href="#" class="view-all"><i class="bi bi-arrow-right"></i></a>
-                </div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Name</th>
-                        <th>School</th>
-                        <th>Grade</th>
-                        <th>Date of Enrollment</th>
-                    </tr>
-                    <tr>
-                        <td><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww" alt="img"></td>
-                        <td>John Doe</td>
-                        <td>ABC School</td>
-                        <td>10th</td>
-                        <td>12/01/2022</td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww" alt="img"></td>
-                        <td>Jane Smith</td>
-                        <td>WRD School</td>
-                        <td>9th</td>
-                        <td>11/01/2022</td>
-                    </tr>
+            <table>
+              <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>School</th>
+                <th>Amount</th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>12/01/2022</td>
+                <td>John Doe</td>
+                <td>ABC School</td>
+                <td>$120</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>11/01/2022</td>
+                <td>Jane Smith</td>
+                <td>WRD School</td>
+                <td>$80</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>10/01/2022</td>
+                <td>Mike Johnson</td>
+                <td>XYZ School</td>
+                <td>$100</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
 
-                    <tr>
-                        <td><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww" alt="img"></td>
-                        <td>Mike Johnson</td>
-                        <td>XYZ School</td>
-                        <td>8th</td>
-                        <td>10/01/2022</td>
-                    </tr>
-                </table>
+              <tr>
+                <td>09/01/2022</td>
+                <td>Sarah Davis</td>
+                <td>PQR School</td>
+                <td>$150</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>08/01/2022</td>
+                <td>David Wilson</td>
+                <td>STU School</td>
+                <td>$130</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>07/01/2022</td>
+                <td>Emily Thompson</td>
+                <td>VWX School</td>
+                <td>$110</td>
+                <td>
+                  <a href="#"><i class="bi bi-info-circle"></i></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="new-students">
+            <div class="title">
+              <h2>New students</h2>
+              <a href="#" class="view-all"><i class="bi bi-arrow-right"></i></a>
             </div>
+            <table>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>School</th>
+                <th>Grade</th>
+                <th>Date of Enrollment</th>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww"
+                    alt="img"
+                  />
+                </td>
+                <td>John Doe</td>
+                <td>ABC School</td>
+                <td>10th</td>
+                <td>12/01/2022</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww"
+                    alt="img"
+                  />
+                </td>
+                <td>Jane Smith</td>
+                <td>WRD School</td>
+                <td>9th</td>
+                <td>11/01/2022</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww"
+                    alt="img"
+                  />
+                </td>
+                <td>Mike Johnson</td>
+                <td>XYZ School</td>
+                <td>8th</td>
+                <td>10/01/2022</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
