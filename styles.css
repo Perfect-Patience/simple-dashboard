@@ -271,12 +271,12 @@ a{
     border: #4e46e5 solid 2px;
 }
 
-table{
+.content table{
     padding: 10px;
 }
 
-th, td{
-    /* border: 1px solid black; */
+ .content th, .content td{
+   
     padding: 10px;
     text-align: left;
 }
@@ -289,5 +289,49 @@ td img{
 }
 
 
+.student-data{
+    position: relative;
+    margin-top: 10vh;
+    max-height: fit-content;
+    min-height: 90vh;
+    padding: 0.8rem 2rem;
+    background-color: #f4f6fa;
 
+}
+
+.student-data table{
+    width: 100%;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.student-data th:first-of-type{
+    padding: 10px;
+}
+.student-data table th{
+    text-align: left;
+    height: 40px;    
+    /* background-color: #f4f6fa */
+    
+}
+
+
+
+.student-data table td div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.student-data table td img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
