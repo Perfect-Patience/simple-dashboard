@@ -289,7 +289,7 @@ td img{
 }
 
 
-.student-data{
+.student-data, .teachers-data{
     position: relative;
     margin-top: 10vh;
     max-height: fit-content;
@@ -299,39 +299,63 @@ td img{
 
 }
 
-.student-data table{
+.student-data table , .teachers-data table{
     width: 100%;
     border-collapse: collapse;
     border-collapse: separate;
-    border-spacing: 10px 20px;
+    border-spacing: 0 10px;
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
 }
-.student-data th:first-of-type{
+.student-data th:first-of-type, .teachers-data th:first-of-type{
     padding: 10px;
 }
-.student-data table th{
+.student-data table th, .teachers-data table th{
     text-align: left;
     height: 40px;    
-    /* background-color: #f4f6fa */
+    background-color: #ffffff;
     
 }
 
 
 
-.student-data table td div{
+.student-data table td div, .teachers-data table td div {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
 
-.student-data table td img{
+.student-data table td img, .teachers-data table td img{
     width: 40px;
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
+
+ .teachers-data button{
+    display: block;
+    
+    border: none;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 4px;
+}
+
+
+
+.teachers-data tr:nth-child(odd){
+    background-color: #f4f6fa;
+}
+
+.teachers-data tr:nth-child(even){
+    background-color: white;
+}
+
+.student-data  table tr:nth-child(even){
+    background-color: #f4f6fa;
+}
+
 
